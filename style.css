@@ -78,6 +78,76 @@ form {
     background-color: white;
     margin: 10px 50px 100px 90px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: auto;
+    display: inline-block;
+}
+
+.pcontent .img-fluid {
+
+    width: 295px;
+    height: 295px;
+    margin: 0px 15px 15px 20px;
+    border-radius: 50%;
+    opacity: 1;
+    height: auto;
+
+}
+
+.pcontent .img-fluid:hover {
+
+    cursor: none;
+    opacity: 0.3;
+
+
+}
+
+.imgcontainer {
+
+    position: relative;
+    width: max-content;
+    display: inline-block;
+
+}
+
+.imgcontainer:hover {
+
+    cursor: none;
+    
+}
+
+.middle {
+
+    transition: .5s ease-in;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+}
+
+.imgcontainer:hover .middle {
+
+    opacity: 1;
+    cursor: none;
+
+}
+
+.imgcontainer:hover .img-fluid {
+
+    opacity: 0.3;
+
+}
+
+.picturetext {
+
+    background-color: grey;
+    color: orange;
+    font-size: 14px;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    border-radius: 50%;
 
 }
 
@@ -125,5 +195,7 @@ footer {
 .aboutcontent {
 
     padding: 0px 0px 30px 0px;
+    height: auto;
+    
 
 }

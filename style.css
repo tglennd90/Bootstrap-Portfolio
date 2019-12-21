@@ -4,29 +4,24 @@ body {
 
 }
 
-.navbar-brand {
+.headername {
 
     background-color: grey;
-    padding: 12px 25px;
-    margin: 0px 15px 0px 100px;
     color: orange;
-    font-style: oblique;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    width: fit-content;
+    margin-left: 30%;
+
 }
 
-.navbar-nav {
-    
+.nav a {
 
-    margin-left: 400px;
-    color: orange;
-    padding: 0px;
-}
+    color: grey;
 
-.navbar {
-
-    border-bottom: 8px solid orange;
-    max-height: 60px;
-    background-color: white;
-    width: max-content;
 }
 
 .nav-item {
@@ -36,7 +31,7 @@ body {
     border-radius: 50%;
     border-color: orange;
     display: flex;
-
+    margin-top: 3px;
 }
 
 .nav-item:hover {
@@ -79,7 +74,7 @@ form {
 
     width: 960px;
     background-color: white;
-    margin: 20px 25px 150px 50px;
+    margin: 100px 25px 150px 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     height: auto;
     display: inline-block;

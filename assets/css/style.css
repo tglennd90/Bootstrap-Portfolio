@@ -65,13 +65,10 @@ form {
 }
 
 .btn {
-
-    background-color: grey;
-    margin-left: 47px;
-    border-color: grey;
-    margin-bottom: 20px;
     color: orange;
-    width: 110px;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
 }
 
 .heading {
@@ -231,3 +228,10 @@ footer {
 
 }
 
+.card:hover {
+    cursor: none;
+}
+
+.card a:hover {
+    cursor: pointer;
+}
